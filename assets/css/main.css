@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Signika:300,700");
+@import url('https://fonts.googleapis.com/css?family=La+Belle+Aurore');
 
 /*
 	Broadcast by TEMPLATED
@@ -1590,7 +1590,7 @@
 	}
 
 	body, input, select, textarea {
-		font-family: "Signika", sans-serif;
+		/*font-family: "La Belle Aurore", cursive;*/
 		font-size: 13pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -1762,9 +1762,9 @@
 		}
 
 	hr {
-		border: 0;
+		/*border: 0;*/
 		border-bottom: solid 1px;
-		margin: 2em 0;
+		/*margin: 2em 0;*/
 	}
 
 		hr.major {
@@ -2790,7 +2790,7 @@
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0 4em 0;
+		padding: 3em 0 4em 0;
 		position: relative;
 	}
 
@@ -2802,7 +2802,7 @@
 			width: 100%;
 			height: 100%;
 			display: block;
-			background-image: url(../../images/bg.jpg);
+			background-image: url(../../images/banner2.jpg);
 			background-size: cover;
 			background-repeat: no-repeat;
 			opacity: 0.35;
@@ -2817,7 +2817,7 @@
 		}
 
 		.wrapper header {
-			margin-bottom: 4em;
+			margin-bottom: 2em;
 		}
 
 			@media screen and (max-width: 736px) {
@@ -2829,7 +2829,7 @@
 			}
 
 		.wrapper.style1 {
-			background-color: #062038;
+			/*background-color: #13508c;*/
 			color: #c1c7cd;
 		}
 
@@ -3341,7 +3341,7 @@
 
 		.video .caption {
 			color: #c0c5c9;
-			padding: 1.5em;
+			padding: .5em;
 			font-size: 1.25em;
 			font-weight: 300;
 			margin: 0;
